@@ -1,0 +1,53 @@
+#Comment
+
+# print("Hello World!")
+# print("派手派手だぜ！")
+# print("音柱　宇随天元")
+
+
+#演算
+# print(1+1)
+# print(1-1)
+# print(2*2)
+# print(10/2)
+# print(5%3)
+
+#変数
+# dust = 'l_size'
+# housedust = 0
+# housedust_times = 5.5
+
+# print(dust)
+
+#条件分岐と関係演算子
+#if else elif
+# ==, !=, <, >, >=, <=
+# if housedust > 6:
+#     print("ooi")
+# elif housedust == 0:
+#     print("nai!")
+# else:
+#     print("sukunai")
+
+#関数
+def unko_funbaru(arg):
+    unko_status = arg
+
+    if(unko_status < 10):
+        return "mada daijyoubu"
+    else:
+        return "yabai"
+
+# print(unko_funbaru(5))
+
+#list
+unko_list = ["unko_small", "unko_midium", "unko_large"]
+# print(unko_list[0])
+
+#for文
+# for index in range(11):
+    # print(index)
+    # print(unko_funbaru(index))
+
+for item in unko_list:
+    print(item)
